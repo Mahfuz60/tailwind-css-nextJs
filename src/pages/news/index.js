@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsPage = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen bg-gray-200 ">
       <h1 className="font-sans text-md font-weight-400 ">Hello Tailwind Css</h1>
       <h2 className="font-serif text-lg font-weight-bold ">
         Hello Tailwind Css
@@ -44,7 +44,6 @@ const NewsPage = () => {
 
         <br />
         <p className="ml-4 text-xl">
-        
           <span className="underline decoration-dotted">
             Lorem ipsum dolor sit amet
           </span>
@@ -63,68 +62,40 @@ const NewsPage = () => {
       <h4 className="text-3xl text-orange-600 lowercase">React JS</h4>
       <h5 className="text-4xl text-teal-500 capitalize">Node JS</h5>
 
+      <p className="mt-3 text-ellipsis overflow-hidden">
+        The longest word in any of the major English language dictionaries is
+        pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a
+        lung disease contracted from the inhalation of very fine silica
+        particles, specifically from a volcano; medically, it is the same as
+        silicosis.
+      </p>
 
-<p className="mt-3 text-ellipsis overflow-hidden">The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.</p>
+      <div className="mt-2 h-48 w-48  bg-violet-800 mx-auto rounded-full"></div>
 
+      <div className="mt-3 h-12 w-12 mx-auto border-orange-400 border-4"></div>
 
+      <p className="text-2xl text-[#2D80B9] ml-[10px] ">Javascript</p>
 
-<div className="mt-2 h-48 w-48  bg-violet-800 mx-auto rounded-full"></div>
+      <div className="text-center py-5">
+        <button className="bg-red-700 text-xl text-white py-2 px-3 rounded-full hover:bg-red-900 hover:transition-colors focus:ring-2 ring-offset-2 ring-pink-500">
+          Subscribe
+        </button>
+      </div>
 
-<div className="mt-3 h-12 w-12 mx-auto border-orange-400 border-4"></div>
+     
+     
 
-<p className="text-2xl text-[#2D80B9] ml-[10px] ">Javascript</p>
+      <h1 className="font-bold text-center bg-green-300  sm:bg-pink-400 md:bg-red-400 lg:bg-violet-400">
+        Hello World
+      </h1>
 
+      <br /><br />
 
-
-
-<div className="text-center py-5">
-<button className="bg-red-700 text-xl text-white py-2 px-3 rounded-full hover:bg-red-900 hover:transition-colors focus:ring-2 ring-offset-2 ring-pink-500">Subscribe</button>
-</div>
-
-
-{/* apply method used */}
-
-
-<div className="flex ">
-
-<div className="pb-5  ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-<div className="pb-5 ml-2">
-<button className="learnMore-btn">Learn More</button>
-</div>
-
-</div>
-
-
-
-<h1 className="font-bold text-center bg-customGreen sm:bg-pink-400 md:bg-red-400 lg:bg-violet-400">Hello World</h1>
-
-
-
-
-
-
-
-
-
-
-
+     
+     {/* darkMode */}
+      <div className=" text-center bg-gray-400 dark:bg-gray-900 ">
+      <h2 className="text-white">Some Text Here</h2>
+      </div>
 
     </div>
   );

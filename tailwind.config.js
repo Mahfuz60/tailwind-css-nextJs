@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
+  darkMode: 'media',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -25,9 +27,9 @@ module.exports = {
       
 
     },
-    colors:{
-      'customGreen':'#16a085'
-    }
+    // colors:{
+    //   'customGreen':'#16a085'
+    // }
   },
   plugins: [require("daisyui")],
 }
